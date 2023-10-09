@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Messages from "./Messages";
+import Input from "./Input";
 
 const Chat = () => {
   return (
@@ -12,7 +13,8 @@ const Chat = () => {
           <img src='' alt="" />
         </div>
       </div>
-
+      <Messages/>
+      <Input/>
     </div>
   );
 }
